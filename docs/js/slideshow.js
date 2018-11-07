@@ -8,7 +8,7 @@ function showPhotos(){
 var i;
 
 
-	var slides =$('.photo img');
+	var slides =$('#instafeed a');
 	console.log(slides);
 
 	for ( i = 0; i < slides.length; i++ ){
